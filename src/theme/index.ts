@@ -27,4 +27,4 @@ export default {
     secondary_500: 'Archivo-Medium',
     secondary_600: 'Archivo-SemiBold',
   },
-};
+}
