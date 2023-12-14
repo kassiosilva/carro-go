@@ -20,11 +20,11 @@ export default {
   },
 
   fonts: {
-    primary_400: 'Inter_400Regular',
-    primary_500: 'Inter_500Medium',
+    primary_400: 'Inter-Regular',
+    primary_500: 'Inter-Medium',
 
-    seconday_400: 'Archivo_400Regular',
-    seconday_500: 'Archivo_500Medium',
-    seconday_600: 'Archivo_600SemiBold',
+    secondary_400: 'Archivo-Regular',
+    secondary_500: 'Archivo-Medium',
+    secondary_600: 'Archivo-SemiBold',
   },
 };
