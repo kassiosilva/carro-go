@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "726550877716",
+    "project_id": "carro-go",
+    "storage_bucket": "carro-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726550877716:android:7cae4c4fa1e25d2f043901",
+        "android_client_info": {
+          "package_name": "com.carrogo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfEeFNRsgPF0JKI9eJuMLh02i0db90ZMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
