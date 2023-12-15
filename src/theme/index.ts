@@ -17,6 +17,8 @@ export default {
 
     shape: '#E1E1E8',
     shape_dark: '#29292E',
+
+    ripple: '#424242',
   },
 
   fonts: {

@@ -21,42 +21,51 @@ import {
   About,
   Footer,
 } from './styles'
+import { Button } from '../../components/Button'
 
 export function CarDetails() {
   return (
-    <Container>
-      <Header />
+    <>
+      <Container>
+        <Header />
 
-      <Content>
-        <Details>
-          <View>
-            <Label>Audi</Label>
-            <Value>RS 5 Coupé</Value>
-          </View>
+        <Content>
+          <Details>
+            <View>
+              <Label>Audi</Label>
+              <Value>RS 5 Coupé</Value>
+            </View>
 
-          <View>
-            <Label>Ao dia</Label>
-            <Value isMoney>R$ 340</Value>
-          </View>
-        </Details>
+            <View>
+              <Label>Ao dia</Label>
+              <Value isMoney>R$ 340</Value>
+            </View>
+          </Details>
 
-        <Accessories>
-          <Accessory name="380Km/h" icon={speedSvg} />
-          <Accessory name="3.2s" icon={accelerationSvg} />
-          <Accessory name="800HP" icon={forceSvg} />
-          <Accessory name="Gasolina" icon={gasolineSvg} />
-          <Accessory name="Auto" icon={exchangeSvg} />
-          <Accessory name="2 pessoas" icon={peopleSvg} />
-        </Accessories>
+          <Accessories>
+            <Accessory name="380Km/h" icon={speedSvg} />
+            <Accessory name="3.2s" icon={accelerationSvg} />
+            <Accessory name="800HP" icon={forceSvg} />
+            <Accessory name="Gasolina" icon={gasolineSvg} />
+            <Accessory name="Auto" icon={exchangeSvg} />
+            <Accessory name="2 pessoas" icon={peopleSvg} />
+          </Accessories>
 
-        <About>
-          Este é automóvel desportivo. Surgiu do lendário touro de lide
-          indultado na praça Real Maestranza de Sevilla. É um belíssimo carro
-          para quem gosta de acelerar.
-        </About>
-      </Content>
+          <About>
+            Este é automóvel desportivo. Surgiu do lendário touro de lide
+            indultado na praça Real Maestranza de Sevilla. É um belíssimo carro
+            para quem gosta de acelerar.
+          </About>
+        </Content>
+      </Container>
 
-      <Footer />
-    </Container>
+      <Footer>
+        <Button
+          loading
+          onPress={() => console.log('TESTE')}
+          title="Falar com proprietário"
+        />
+      </Footer>
+    </>
   )
 }

@@ -5,6 +5,9 @@ interface ValueProps {
 }
 
 export const Container = styled.ScrollView.attrs({
+  contentContainerStyle: {
+    flexGrow: 1,
+  },
   showsVerticalScrollIndicator: false,
 })`
   background-color: ${({ theme }) => theme.colors.background_secondary};
@@ -62,4 +65,8 @@ export const About = styled.Text`
   margin-top: 24px;
 `
 
-export const Footer = styled.View``
+export const Footer = styled.View`
+  padding: 24px;
+  justify-items: center;
+  background-color: ${({ theme }) => theme.colors.background_primary};
+`
